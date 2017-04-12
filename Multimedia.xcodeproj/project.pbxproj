@@ -12,6 +12,9 @@
 		FB456CCC1E9DAF7200B479E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB456CCA1E9DAF7200B479E9 /* Main.storyboard */; };
 		FB456CCE1E9DAF7200B479E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB456CCD1E9DAF7200B479E9 /* Assets.xcassets */; };
 		FB456CD11E9DAF7200B479E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB456CCF1E9DAF7200B479E9 /* LaunchScreen.storyboard */; };
+		FB456CDD1E9DCB7600B479E9 /* small.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FB456CDB1E9DCB7600B479E9 /* small.mp4 */; };
+		FB456CDE1E9DCB7600B479E9 /* sonido.wav in Resources */ = {isa = PBXBuildFile; fileRef = FB456CDC1E9DCB7600B479E9 /* sonido.wav */; };
+		FB456CE01E9DCBE800B479E9 /* WebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB456CDF1E9DCBE800B479E9 /* WebViewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		FB456CCD1E9DAF7200B479E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB456CD01E9DAF7200B479E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB456CD21E9DAF7200B479E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB456CDB1E9DCB7600B479E9 /* small.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = small.mp4; sourceTree = "<group>"; };
+		FB456CDC1E9DCB7600B479E9 /* sonido.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sonido.wav; sourceTree = "<group>"; };
+		FB456CDF1E9DCBE800B479E9 /* WebViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +60,15 @@
 		FB456CC51E9DAF7200B479E9 /* Multimedia */ = {
 			isa = PBXGroup;
 			children = (
+				FB456CDB1E9DCB7600B479E9 /* small.mp4 */,
+				FB456CDC1E9DCB7600B479E9 /* sonido.wav */,
 				FB456CC61E9DAF7200B479E9 /* AppDelegate.swift */,
 				FB456CC81E9DAF7200B479E9 /* ViewController.swift */,
 				FB456CCA1E9DAF7200B479E9 /* Main.storyboard */,
 				FB456CCD1E9DAF7200B479E9 /* Assets.xcassets */,
 				FB456CCF1E9DAF7200B479E9 /* LaunchScreen.storyboard */,
 				FB456CD21E9DAF7200B479E9 /* Info.plist */,
+				FB456CDF1E9DCBE800B479E9 /* WebViewViewController.swift */,
 			);
 			path = Multimedia;
 			sourceTree = "<group>";
@@ -96,6 +105,7 @@
 				TargetAttributes = {
 					FB456CC21E9DAF7200B479E9 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 238YUUWH47;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -123,7 +133,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB456CDE1E9DCB7600B479E9 /* sonido.wav in Resources */,
 				FB456CD11E9DAF7200B479E9 /* LaunchScreen.storyboard in Resources */,
+				FB456CDD1E9DCB7600B479E9 /* small.mp4 in Resources */,
 				FB456CCE1E9DAF7200B479E9 /* Assets.xcassets in Resources */,
 				FB456CCC1E9DAF7200B479E9 /* Main.storyboard in Resources */,
 			);
@@ -137,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB456CC91E9DAF7200B479E9 /* ViewController.swift in Sources */,
+				FB456CE01E9DCBE800B479E9 /* WebViewViewController.swift in Sources */,
 				FB456CC71E9DAF7200B479E9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,7 +273,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 238YUUWH47;
 				INFOPLIST_FILE = Multimedia/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pe.ourlimm.Multimedia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -272,7 +287,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 238YUUWH47;
 				INFOPLIST_FILE = Multimedia/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pe.ourlimm.Multimedia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
